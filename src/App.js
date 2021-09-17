@@ -56,7 +56,7 @@ function App() {
         onClick = { () => startGame() }
         disabled = { isRunning }
       >Start</button>
-      { numWords ? <h2>Result: <br /> { numWords } words in {STARTING_TIME} seconds</h2> : '' }
+      { numWords ? <h2>Your result: <br /> { numWords } words in {STARTING_TIME} seconds</h2> : '' }
     </div>
   );
 }
