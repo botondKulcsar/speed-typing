@@ -12,7 +12,7 @@ const App = () => {
     numWords,
     startGame,
     startingTime
-  } = useSpeedType(5);
+  } = useSpeedType(10);
 
   return (
     <div className="App">
